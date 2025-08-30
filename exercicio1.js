@@ -29,7 +29,6 @@ let soma = 0;
 for (let posicao = 0; posicao < numeros.length; posicao++) {
     soma += numeros[posicao];
 }
-
 console.log("A soma dos valores é: " + soma);
 
 let media = soma / numeros.length;
