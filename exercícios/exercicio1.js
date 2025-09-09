@@ -38,4 +38,4 @@ console.log(`O maior valor do array é ${maiorNumero}.`);
 
 const numerosImpares = numbers.filter((number) => number % 2 > 0 || number % 2 < 0 );
 
-numerosImpares.length === 0 ? console.log(`Nenhum número ímpar encontrado`) : console.log(`Numeros ímpares: ${numerosImpares}`);
+numerosImpares.length === 0 ? console.log(`Nenhum número ímpar encontrado`) : console.log(`Numeros ímpares: ${numerosImpares.length}`);
