@@ -1,17 +1,17 @@
-// Modifique o algoritmo anterior para que ele imprima um triângulo retângulo com n asteriscos de base.
+// Crie um algoritmo que, dado um valor n (sendo n > 1), imprima na tela um quadrado de asteriscos com tamanho n.
 
-function fazerTriangulo(n) {
+function fazerQuadrado(n) {
   if (n <= 1) {
     console.log("Valor de n deve ser maior que 1.")
     return
   }
 
-  for (let i = 0; i < n; i++) {
+  for (let i = 1; i <= n; i++) {
     let asterisco = ''
-    for (let j = 0; j < n; j++) {
-      asterisco += "*"
-    }
+    for (let j = 0; j < i; j++) {
+        asterisco += '*'
+      }
     console.log(asterisco)
   }
 }
-fazerTriangulo(4);
+fazerQuadrado(4);
